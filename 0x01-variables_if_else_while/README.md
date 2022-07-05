@@ -5,3 +5,4 @@
 4-print_alphabt.c file added
 5-print_numbers.c file added
 6-print_numberz.c file added
+7-print_tebahpla.c file added
