@@ -1,1 +1,1 @@
-0-putchar.c file added
+Print alphabet in lowercase
