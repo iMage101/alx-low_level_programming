@@ -1,1 +1,1 @@
-Prints 9 times table, starting with 0
+Adds two integers and returns the result
