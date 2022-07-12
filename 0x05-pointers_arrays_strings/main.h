@@ -1,7 +1,4 @@
 #include <unistd.h>
-/**
-*reset_to_98 - takes pointer int and update the value to 98
-*/
 int _putchar(char);
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
@@ -15,4 +12,3 @@ void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
 void generationRandomPassword(int N);
-Footer;
