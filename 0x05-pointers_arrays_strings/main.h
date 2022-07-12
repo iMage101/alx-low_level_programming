@@ -16,4 +16,3 @@ char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
 void generationRandomPassword(int N);
 Footer
-
