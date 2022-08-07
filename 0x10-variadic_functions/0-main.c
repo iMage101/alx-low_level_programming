@@ -15,4 +15,4 @@ int main(void)
     sum = sum_them_all(4, 98, 1024, 402, -1024);
     printf("%d\n", sum);    
     return (0);
-}
+
