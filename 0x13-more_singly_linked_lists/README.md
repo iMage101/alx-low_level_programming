@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # More Singly Linked Lists
 Data Structure used throughout was a singly linked list that store int
 
@@ -18,3 +19,6 @@ Data Structure used throughout was a singly linked list that store int
 * [101-print_listint_safe.c](101-print_listint_safe.c)
 * [102-free_listint_safe.c](102-free_listint_safe.c)
 * [103-find_loop.c](103-find_loop.c)
+=======
+More Singly Linked Lists
+>>>>>>> b18eb04169674518d1b82fa305b0b818ef1b4f1e

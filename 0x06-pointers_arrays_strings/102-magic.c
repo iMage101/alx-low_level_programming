@@ -16,7 +16,11 @@ int main(void)
    * - only one statement
    * - you are not allowed to code anything else than this line of code
    */
+<<<<<<< HEAD
   *(p + 5) = 98;
+=======
+  p[5] = 98;
+>>>>>>> b18eb04169674518d1b82fa305b0b818ef1b4f1e
   /* ...so that this prints 98\n */
   printf("a[2] = %d\n", a[2]);
   return (0);

@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 #ifndef LISTS_H
 #define LISTS_H
 
 #include <string.h>
 #include <stdlib.h>
 #include <stdio.h>
+=======
+#ifndef _LINKED_LIST_H_
+#define _LINKED_LIST_H_
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
+>>>>>>> b18eb04169674518d1b82fa305b0b818ef1b4f1e
 
 /**
  * struct list_s - singly linked list
@@ -12,6 +21,10 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
+<<<<<<< HEAD
+=======
+ * for Holberton project
+>>>>>>> b18eb04169674518d1b82fa305b0b818ef1b4f1e
  */
 typedef struct list_s
 {
@@ -26,4 +39,9 @@ list_t *add_node(list_t **head, const char *str);
 list_t *add_node_end(list_t **head, const char *str);
 void free_list(list_t *head);
 
+<<<<<<< HEAD
+=======
+int _putchar(char c);
+
+>>>>>>> b18eb04169674518d1b82fa305b0b818ef1b4f1e
 #endif

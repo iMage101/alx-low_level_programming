@@ -28,6 +28,7 @@ void simple_print_buffer(char *buffer, unsigned int size)
     }
     printf("\n");
 }
+<<<<<<< HEAD
 
 /**
  * main - check the code
@@ -45,3 +46,5 @@ int main(void)
     simple_print_buffer(buffer, 98);    
     return (0);
 }
+=======
+>>>>>>> b18eb04169674518d1b82fa305b0b818ef1b4f1e

@@ -1,6 +1,7 @@
 #include "main.h"
 
 /**
+<<<<<<< HEAD
  * _strspn - gets the length of a prefix substring.
  * @s: the string
  * @accept: prefix
@@ -29,4 +30,33 @@ unsigned int _strspn(char *s, char *accept)
 	}
 
 	return (length);
+=======
+*_strspn - get length of a prefix substring
+*@s: string
+*@accept: bytes being compared
+*Description: finds number of bytes required to find accept in s
+*Return: bytes required to find accept
+*/
+
+unsigned int _strspn(char *s, char *accept)
+{
+	int i, j, ex;
+
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		ex = 0;
+		for (j = 0; accept[j] != '\0'; j++)
+		{
+			if (accept[j] == s[i])
+			{
+				ex = 1;
+			}
+		}
+		if (ex == 0)
+		{
+			return (i);
+		}
+	}
+	return (i);
+>>>>>>> b18eb04169674518d1b82fa305b0b818ef1b4f1e
 }

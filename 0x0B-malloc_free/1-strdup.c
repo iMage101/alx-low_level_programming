@@ -1,4 +1,5 @@
 #include "main.h"
+<<<<<<< HEAD
 #include <stdlib.h>
 
 /**
@@ -13,10 +14,39 @@ char *_strdup(char *str)
 {
 	char *copy;
 	int i, len = 0;
+=======
+#include <stdio.h>
+#include <stdlib.h>
+/**
+ * _strlen - returns the length of the string
+ * @s: input string to count
+ * Description: returns the length of a given string
+ * Return: length of string as int
+ **/
+int _strlen(char *s)
+{
+	unsigned int i;
+
+	for (i = 0; s[i] != '\0'; i++)
+		;
+	return (i + 1);
+}
+/**
+ * _strdup - duplicate string
+ * @str: source string
+ * Description: duplicate string
+ * Return: pointer to string, NULL if fail
+ **/
+char *_strdup(char *str)
+{
+	char *dest;
+	unsigned int i;
+>>>>>>> b18eb04169674518d1b82fa305b0b818ef1b4f1e
 
 	if (str == NULL)
 		return (NULL);
 
+<<<<<<< HEAD
 	while (str[len] != '\0')
 		len++;
 
@@ -29,4 +59,16 @@ char *_strdup(char *str)
 	copy[len] = '\0';
 
 	return (copy);
+=======
+	dest = (char *)malloc((_strlen(str)) * sizeof(char));
+
+	if (dest == NULL)
+		return (NULL);
+
+	for (i = 0; str[i] != '\0'; i++)
+		dest[i] = str[i];
+	dest[i] = str[i];
+
+	return (dest);
+>>>>>>> b18eb04169674518d1b82fa305b0b818ef1b4f1e
 }

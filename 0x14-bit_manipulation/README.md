@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Bitwise Operations
 
 ## Description
@@ -19,3 +20,6 @@ Under this Directory Tasks will help explore various uses of the following opera
 * [4-clear_bit.c](4-clear_bit.c)
 * [5-flip_bits.c](5-flip_bits.c)
 * [100-get_endianness.c](100-get_endianness.c)
+=======
+# 0x14-bit_manipulation
+>>>>>>> b18eb04169674518d1b82fa305b0b818ef1b4f1e
